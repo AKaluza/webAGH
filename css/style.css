@@ -324,6 +324,12 @@ a {
 	background-color: #072833;
 }
 
+.services_shadow2{
+	margin-top: 10px;
+	box-shadow: 0px 0px 10px 0px;
+	background-color: #072833;
+}
+
 .written_text{
 	width: 100%;
 	float: left;
