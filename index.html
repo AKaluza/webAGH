@@ -67,7 +67,7 @@
 									<a class="nav-link" href="#Lectures">LECTURES</a></li>
                                <li class="nav-item">
                                 <a class="nav-link" href="#Publication">PUBLICATION</a></li>
-                               <li class="#" href="#">
+                               <li class="nav-item" href="#">
       	                        <a class="nav-link" href="#Posters">POSTERS</a></li>
                                <li class="nav-item" href="#">
       	                        <a class="nav-link" href="#Contact">CONTACT</a></li>
@@ -81,7 +81,7 @@
     </div>
     <!-- end header end -->        
     <!--banner start -->
-   <div class="banner-main">
+   <div class="banner-main",id="About_Me">
 <!--    	<div class="container">-->
 <!--           <div id="main_slider" class="carousel slide" data-ride="carousel">  -->
 <!--           &lt;!&ndash; The slideshow &ndash;&gt;-->
@@ -133,7 +133,10 @@
     <div class="services_main", id="About_Me">
     	<div class="container">
     		<div class="creative_taital">
-				<h1 class="creative_text">About Me</h1>
+				<div class="section_service_2">
+					<h1 class="service_text">About Me</h1>
+				</div>
+
 				<div class="container">
 					<div class="row">
 						<div class="col-md-3">
@@ -144,7 +147,13 @@
 							<p style="color: #050000; text-align: left;">Welcome to my website.<br>
 								I am currently engaged in multiple projects in the field of applied Mathematics.
 								That usually means either developing new numerical methods for differential equations
-								or applications of machine learning into real life problems. My main interest is to bring value for industry or the end-users.<br><br><br><br></p>
+								or applications of machine learning into real life problems. My main interest is to bring value for industry or the end-users.
+								I am mostly interested in the numerical analysis and the complexity of continuous problems. My research is mainly conducted within the Information-Based Complexity framework.
+								<br>
+								<br>
+								I am also interested in other practical applications of mathematics, such as data science,
+								machine learning, deep learning, data mining, time series, parallel computation (mostly CUDA),
+								predictive analytics, and optimization.<br><br><br><br></p>
 			<!--    			<div class="btn_main">-->
 			<!--&lt;!&ndash;    			    <button type="button" class="btn btn-dark btn-lg">Get started</button>&ndash;&gt;-->
 			<!--    		    </div>-->
@@ -152,8 +161,12 @@
 					</div>
 				</div>
     		</div>
-			<!--Dydaktyka start-->
-			<div class="services_main" id="Lectures">
+		</div>
+	</div>
+
+
+	<!--Dydaktyka start-->
+	<div class="services_main" id="Lectures">
 				<div class="container">
 					<div class="section_service_2">
 						<h1 class="service_text">Lectures</h1>
@@ -161,16 +174,18 @@
 					<div class="service_main">
 						<div class="container">
 							<div class="row">
-								<div class="col-md-6">
+								<div class="services_shadow" style="width: 45%">
+									<div class="col-md-12">
 										<div class="written_text">
 											<h1 class="written_text">Applied JAVA 2020/21</h1>
 											<div class="btn_main">
 												<button type="button" class="btn btn-dark btn-lg"><a href="">info</a></button>
 											</div>
 										</div>
+									</div>
 								</div>
-<!--								<div class="services_shadow">-->
-									<div class="col-md-6">
+								<div class="services_shadow"style="width: 45%">
+									<div class="col-md-12">
 										<div class="written_text">
 											<h1 class="written_text">Basic of Machine Learning 2020/21</h1>
 											<div class="btn_main">
@@ -178,17 +193,19 @@
 											</div>
 										</div>
 									</div>
-<!--								</div>-->
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!--Dydaktyka end -->
+	<!--Dydaktyka end -->
 
-    		    <div class="section_service_2" id="Publication">
-    		    	<h1 class="service_text">Publications</h1>
-    		    </div>
+	<div class="service_main" id="Publication">
+		<div class="container">
+			<div class="section_service_2">
+				<h1 class="service_text">Publication</h1>
+			</div>
     		    <div class="service_main">
     		    	<div class="container">
     		    		<div class="row">
@@ -219,8 +236,10 @@
     		    		</div>
     		    	</div>
     		    </div>
-    	</div>	  
+    	</div>
 	</div>
+
+
     <!--publications end -->
 
 	<!--poster start -->
@@ -315,11 +334,11 @@
 -->
     <!--touch_section end -->
     <!--Contact_section start -->
-    <div class="contact_main">
+    <div class="contact_main", id="Contact">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h1 class="touch_text">Contact</h1>
+                    <h1 class="service_text">Contact</h1>
                 </div>
             </div>
         </div>
