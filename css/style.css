@@ -141,7 +141,7 @@ a {
     float: left;
     background-image: url(../images/header.png);
     height: auto;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 40px;
 }
 
@@ -178,7 +178,7 @@ a {
 .header_main{
 	width: 100%; 
 	float: left;
-    background-image: url(../images/header.png); 
+    background-image: url(../images/3164_2.jpg);
 	height: auto;
 	padding-bottom: 20px;
 }
@@ -186,7 +186,7 @@ a {
 .banner-main{ 
 	width: 100%;
 	float: left;
-	background-image:url(../images/pexels-pixabay-373543.jpg);
+	background-image:url(../images/pexels-pixabay-373543_2.jpg);
 	height: 400px;
 	padding-top: 120px;
 	padding-bottom: 226px;
@@ -299,6 +299,12 @@ a {
 
 
 }
+.section_service_3{
+	width: 50%;
+	float: center;
+
+
+}
 
 .service_text{
 	color: #050000;
@@ -319,6 +325,7 @@ a {
 }
 
 .services_shadow{
+	width: 100%;
 	margin-top: 30px;
 	margin-left: 10px;
 	margin-right: 40px;
